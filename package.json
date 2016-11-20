@@ -1,24 +1,24 @@
 {
-  "name": "antd-tools",
-  "version": "0.14.4",
+  "name": "lud-tools",
+  "version": "0.1.0",
   "description": "tools for ant design",
   "keywords": [
     "react",
     "tools"
   ],
-  "homepage": "http://github.com/ant-design/antd-tools",
-  "author": "yiminghe@gmail.com",
+  "homepage": "http://github.com/zhulux/lud-tools",
+  "author": "borisding@zhulux.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ant-design/antd-tools.git"
+    "url": "git@github.com:zhulux/ludd-tools.git"
   },
   "bugs": {
-    "url": "http://github.com/ant-design/antd-tools/issues"
+    "url": "http://github.com/zhulux/lud-tools/issues"
   },
   "licenses": "MIT",
   "bin": {
-    "antd-tools": "./bin/antd-tools.js",
-    "antd-tools-run": "./bin/antd-tools-run.js"
+    "lud-tools": "./bin/lud-tools.js",
+    "lud-tools-run": "./bin/lud-tools-run.js"
   },
   "scripts": {
     "publish": "git push origin",
@@ -26,19 +26,19 @@
     "lint": "eslint lib"
   },
   "dependencies": {
-    "atool-build": "^0.9.0",
+    "lutool-build": "^0.1.2",
     "babel-eslint": "^7.1.0",
     "babel-plugin-transform-runtime": "~6.12.0",
     "chalk": "~1.1.3",
     "colorful": "^2.1.0",
     "commander": "^2.9.0",
-    "es3ify": "^0.2.1",
+    "es3ify": "^0.2.2",
     "es3ify-loader": "^0.2.0",
-    "gh-pages": "^0.11.0",
+    "gh-pages": "^0.12.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-typescript": "~3.0.2",
-    "gulp-watch": "^4.3.10",
+    "gulp-watch": "^4.3.11",
     "merge2": "~1.0.2",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
